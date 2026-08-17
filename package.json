@@ -1,12 +1,15 @@
 {
-  "name": "meu-primeiro-backend",
+  "name": "backend-aula3",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "exercicio1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
