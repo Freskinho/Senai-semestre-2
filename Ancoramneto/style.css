@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+
+    background: linear-gradient(
+        to bottom right,
+        black,
+        grey,
+        white
+
+    );
+}
+
+h1, h2, p {
+    color: white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+hr {
+    width: 70%;
+    height: 2px;
+    border: none;
+    background: white;
+    margin: 40px auto;
+}
+
+img {
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
